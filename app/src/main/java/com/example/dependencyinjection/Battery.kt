@@ -9,6 +9,6 @@ class Battery {
     }
 
     fun lifeCicleBattery() {
-        println("Battery 100%")
+        Log.i("TAGY","Battery 100%")
     }
 }

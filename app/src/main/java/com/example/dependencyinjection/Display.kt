@@ -9,6 +9,6 @@ class Display {
     }
 
     fun displayMobile() {
-        println("insert Display")
+        Log.i("TAGY","insert Display")
     }
 }

@@ -9,6 +9,6 @@ class ServiceSim {
     }
 
     fun serviceStart() {
-        println("Service is connected")
+        Log.i("TAGY","Service is connected")
     }
 }

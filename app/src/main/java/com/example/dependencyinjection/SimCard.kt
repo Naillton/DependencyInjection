@@ -1,8 +1,9 @@
 package com.example.dependencyinjection
 
 import android.util.Log
+import javax.inject.Inject
 
-class SimCard(private val simService: ServiceSim) {
+class SimCard @Inject constructor(private val simService: ServiceSim) {
     // injeção de de dependencia de cmapos
     // lateinit var sim: ServiceSim
 
@@ -18,6 +19,6 @@ class SimCard(private val simService: ServiceSim) {
     }
 
     fun connection() {
-        println("Sim connected to internet and Calls")
+        Log.i("TAGY","Sim connected to internet and Calls")
     }
 }
